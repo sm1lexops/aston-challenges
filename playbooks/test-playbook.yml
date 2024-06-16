@@ -1,0 +1,7 @@
+# test-playbook.yml
+---
+- name: test ansible
+  hosts: local
+  tasks:
+    - name: Ping the localhost
+      ping:

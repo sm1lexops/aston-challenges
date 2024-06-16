@@ -1,0 +1,11 @@
+.env
+.git/
+/tmp/
+~/.ansible/tmp/
+# Ignore variable files if they contain sensitive information
+vars/*.yml
+group_vars/*.yml
+host_vars/*.yml
+
+# Ignore additional system-specific temporary files
+.DS_Store
