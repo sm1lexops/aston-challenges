@@ -91,7 +91,7 @@
         --registration-token "{{ gitlab_registration_token }}"
         --executor docker
         --description "{{ gitlab_runner_name }}"
-        --tag-list "docker, shell, shared, linux"
+        --tag-list "aston-runner"
         --docker-image "docker:latest"
         --run-untagged
         --locked="false"
